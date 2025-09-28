@@ -14,7 +14,9 @@
             <p>My sources say the sky will be <%= locals.weatherRes.weather[0].description %></p>
             <p>Temperatures ranging from <%= locals.weatherRes.main.temp_min %> to <%= locals.weatherRes.main.temp_max %> degrees farenheiht</p>
             <p>They say the wind will be as strong as <%= locals.weatherRes.wind.speed %> miles/hour.</p>
-            <% } %>
+            <% } else { %>
+                <p>Uh Oh! The spirits are not communicating!</p>
+            <%}%>
         </body>
     </div>
 </html>
