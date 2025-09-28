@@ -1,4 +1,3 @@
 # To run:
-- npm init
-- npm i express
+- npm install
 - npm start
