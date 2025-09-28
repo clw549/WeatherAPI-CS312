@@ -1,0 +1,16 @@
+{
+  "name": "apihomework",
+  "version": "1.0.0",
+  "description": "Weather API caller",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "clw549",
+  "license": "ISC",
+  "dependencies": {
+    "expres": "^0.0.5",
+    "express": "^5.1.0"
+  }
+}
