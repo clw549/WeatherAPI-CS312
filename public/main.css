@@ -1,0 +1,53 @@
+* {
+    margin: 2px;
+
+}
+body {
+    flex-direction: column;
+    margin-top:2rem;
+    align-items: center;
+    display:flex;
+    background-color: #400745;
+    color: #D7CDCC;
+    border-style: initial;
+    border-color: #255C99;
+    background: url("nebula.jpg") center no-repeat, #400745;
+    background-size: 110%;
+
+}
+form {
+    align-items: center;
+    border-style: inset;
+    border-color: #255C99;
+    border: 2px;
+    border-bottom: 4px;
+    display: flex;
+    flex-direction: column;
+}
+button {
+    font-size: 5rem;
+    width:fit-content;
+    border-radius: 3rem;
+    padding: 1rem;
+    color:#C874D9;
+    border-color: #400745;
+}
+input {
+    background-color: #C874D9;
+    color:#400745;
+    border-color: #C874D9;
+}
+#crystalBall {
+    width: 10rem;
+    height:auto;
+}
+div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    border: 10px solid transparent;
+    border-image: url("border.png") 77 100 77 100 round;
+    background-color: #400745;
+    outline: black solid 2px;
+}

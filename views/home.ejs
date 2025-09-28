@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <head>
-    <title>Weather API</title>
+    <title>Weather Prophet</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
 </head>
 <html>
+    <div>
     <body>
         <h1>Weather Prophet</h1>
+        <img id="crystalBall" src="crystalBall.png">
         <form method="post">
             <label>Longitude:
-            <input type="number" name="lon"></label>
+            <input required="true" type="number" step=".01" name="lon"></label>
             <label>Latitude:
-            <input type="number" name="lat"></label>
-            <label>Exclude:
-            <select name="exclude"> 
-                <option value="current">Current</option>
-                <option value="minutely">Minutely</option>
-                <option value="hourly">Hourly</option>
-                <option value="daily">Daily</option>
-                <option value="alerts">Alerts</option>
-            </select></label>
+            <input required="true" type="number" step=".01" name="lat"></label>
             <button name="submit" type="submit">Submit</button>
         </form>
-        <p>Flagstaff: lon: 35.1983 lat: 111.6513</p>
+        <p>Flagstaff: lon: 111.65 lat: 35.19</p>
     </body>
+    </div>
 </html>
+

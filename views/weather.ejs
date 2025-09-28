@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Weather Prophet</title>
+</head>
+<html>
+    <div>
+        <body>
+            <img src="crystalBall.png" id="crystalBall">
+            <% if (locals.weatherRes) { %>
+            <img src=<%= locals.weatherRes.weather[0].icon + ".png" %>>
+            <p>My sources say the sky will be <%= locals.weatherRes.weather[0].description %></p>
+            <p>Temperatures ranging from <%= locals.weatherRes.main.temp_min %> to <%= locals.weatherRes.main.temp_max %> degrees farenheiht</p>
+            <p>They say the wind will be as strong as <%= locals.weatherRes.wind.speed %> miles/hour.</p>
+            <% } %>
+        </body>
+    </div>
+</html>
